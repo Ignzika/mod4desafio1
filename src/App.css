@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Calligraffitti&family=Codystar&family=Finger+Paint&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+
+.cardcss {
+  padding: 1rem 0;
+  background-blend-mode: multiply;
+  background-color: rgb(202, 194, 194);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardcss:hover {
+  transition: 0.7s;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.77),
+    0 6px 20px 0 rgb(255, 255, 255);
+}
+
+.cardcss img {
+  align-self: center;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  object-fit: cover;
+  height: 200px;
+}
+
+.cardcss .title,
+.txt {
+  color: white;
+}
+
+.cardcss .title {
+  font-family: "Codystar", cursive;
+}
+
+.cardcss .txt {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  letter-spacing: 0.2rem;
+}
+
+footer {
+  margin-top: 1rem;
+  border: #ddd solid 1px;
+  padding-top: 3rem;
+  color: white;
+  font-family: "Calligraffitti", cursive;
+  letter-spacing: 0.5rem;
+}
